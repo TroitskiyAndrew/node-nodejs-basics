@@ -18,7 +18,8 @@
     "streamsTransform": "node src/streams/transform.js",
     "zipCompress": "node src/zip/compress.js",
     "zipDecompress": "node src/zip/decompress.js",
-    "workerTreades": "node src/wt/main.js"
+    "workerTreades": "node src/wt/main.js",
+    "chiledProcess": "node src/cp/cp.js"
   },
   "repository": {
     "type": "git",
