@@ -15,7 +15,7 @@ export const read = async () => {
     }
 
     const value = await fs.readFile(targetFile);
-    process.stdout.write(value.toString());
+    console.log(value.toString());
 };
 
 await read();

@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 
 export const calculateHash = async () => {
     const value = await fs.readFile(path.join(__dirname, 'files', 'fileToCalculateHashFor.txt'))
-    process.stdout.write(crypto.createHash('SHA256').update(value).digest('hex'))
+    console.log(crypto.createHash('SHA256').update(value).digest('hex'))
 };
 
 calculateHash();
