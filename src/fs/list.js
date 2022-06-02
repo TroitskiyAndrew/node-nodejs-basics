@@ -14,7 +14,7 @@ export const list = async () => {
         throw new CustomError('FS operation failed');
     }
     const files = await fs.readdir(targetFolder);
-    console.log(files.map(file => file.split('.')[0]).join(', '));
+    process.stdout.write(files.map(file => file.split('.')[0]).join(', '));
 };
 
 await list();

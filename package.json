@@ -11,7 +11,8 @@
     "fsDelete": "node src/fs/delete.js",
     "fsList": "node src/fs/list.js",
     "fsRead": "node src/fs/read.js",
-    "cliEnv": "set RSS_Test=1234&&set RSS_Test2=12345 &&node src/cli/env.js"
+    "cliEnv": "set RSS_Test=1234&&set RSS_Test2=12345 &&node src/cli/env.js",
+    "hash": "node src/hash/calcHash.js"
   },
   "repository": {
     "type": "git",
