@@ -1,4 +1,3 @@
-import fs from 'fs'
 import { Transform } from 'stream';
 import { pipeline } from 'stream/promises';
 

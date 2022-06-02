@@ -15,7 +15,9 @@
     "hash": "node src/hash/calcHash.js",
     "streamsRead": "node src/streams/read.js",
     "streamsWrite": "node src/streams/write.js",
-    "streamsTransform": "node src/streams/transform.js"
+    "streamsTransform": "node src/streams/transform.js",
+    "zipCompress": "node src/zip/compress.js",
+    "zipDecompress": "node src/zip/decompress.js"
   },
   "repository": {
     "type": "git",
