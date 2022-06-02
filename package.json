@@ -12,7 +12,10 @@
     "fsList": "node src/fs/list.js",
     "fsRead": "node src/fs/read.js",
     "cliEnv": "set RSS_Test=1234&&set RSS_Test2=12345 &&node src/cli/env.js",
-    "hash": "node src/hash/calcHash.js"
+    "hash": "node src/hash/calcHash.js",
+    "streamsRead": "node src/streams/read.js",
+    "streamsWrite": "node src/streams/write.js",
+    "streamsTransform": "node src/streams/transform.js"
   },
   "repository": {
     "type": "git",
